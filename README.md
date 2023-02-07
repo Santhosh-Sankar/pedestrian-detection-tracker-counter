@@ -1,12 +1,17 @@
-# Pedestrian detection, trackingand counting using Yolov3 and DeepSORT.
+# Pedestrian detection, tracking and counting using Yolov3 and DeepSORT.
 This repository contains code for detecting, tracking and counting pedestrians using Yolov3 as object or pedestrian detector and utilizes DeepSORT (Simple Online and Realtime Tracking with a Deep Association Metric) for real-time pedestrian tracking and counting. The repository also contains code for generating detections for tracker evaluation using MOT Benchmarks.  
-![](data/videos/demo1.gif)
+
+
+<p align='center'>
+    ![](data/videos/demo3.gif)
+</p>
+
 
 ## Usage
-![](data/videos/demo3.gif)
 
 ### Installation
 
+#### Using conda
 ```
 conda env create -f environment.yml
 conda activate ped-track
@@ -29,7 +34,6 @@ python convert.py --weights ./data/yolov3.weights --output ./checkpoints/yolov3.
 python pedestrian_detection.py --video='./data/videos/<VIDEO FILE> --output='./data/videos/results.avi'
 ```
 
-
 ### Get detections for evaluation
 Download MOT16 dataset here: https://motchallenge.net/data/MOT16/
 ```
@@ -50,7 +54,7 @@ The code outputs the detected pedestrians with a bounding box and the path of mo
 ![](data/videos/demo2.gif)
 
 
-####References
+#### References
 Yolov3: https://github.com/zzh8829/yolov3-tf2
 DeepSORT: https://github.com/nwojke/deep_sort 
 
