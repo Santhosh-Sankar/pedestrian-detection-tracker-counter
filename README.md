@@ -3,7 +3,7 @@ This repository contains code for detecting, tracking and counting pedestrians u
 
 
 <p align='center'>
-    <img src="/data/videos/demo3.gif" alt="animation" width="600"/>
+    <img src="/data/videos/demo3.gif" alt="animation" width="1000"/>
 </p>
 
 ## Usage
@@ -48,12 +48,12 @@ The code outputs the detected pedestrians with a bounding box and the path of mo
 
 #### Less crowded dataset
 <p align='center'>
-    <img src="/data/videos/demo1.gif" alt="animation" width="600"/>
+    <img src="/data/videos/demo1.gif" alt="animation" width="1000"/>
 </p>
 
 #### More crowded dataset
 <p align='center'>
-    <img src="/data/videos/demo2.gif" alt="animation" width="600"/>
+    <img src="/data/videos/demo2.gif" alt="animation" width="1000"/>
 </p>
 
 
