@@ -58,8 +58,8 @@ The code outputs the detected pedestrians with a bounding box and the path of mo
 
 
 #### References
-Yolov3: https://github.com/zzh8829/yolov3-tf2
-DeepSORT: https://github.com/nwojke/deep_sort 
+- [Yolov3] (https://github.com/zzh8829/yolov3-tf2)
+- [DeepSORT] (https://github.com/nwojke/deep_sort) 
 
 
 
