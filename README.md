@@ -3,9 +3,8 @@ This repository contains code for detecting, tracking and counting pedestrians u
 
 
 <p align='center'>
-    ![](data/videos/demo3.gif)
+    <img src="/data/videos/demo3.gif" alt="animation" width="600"/>
 </p>
-
 
 ## Usage
 
@@ -48,10 +47,14 @@ python evaluate_motchallenge.py --mot_dir=<MOT LOCATION> --detection_dir=<DETECT
 The code outputs the detected pedestrians with a bounding box and the path of motion of the centre point of the bounding boxes for the last 50 frames are plotted. The total number of pedestriand detected and the pedestrians currently visible in the frame are displayed.
 
 #### Less crowded dataset
-![](data/videos/demo1.gif)
+<p align='center'>
+    <img src="/data/videos/demo1.gif" alt="animation" width="600"/>
+</p>
 
 #### More crowded dataset
-![](data/videos/demo2.gif)
+<p align='center'>
+    <img src="/data/videos/demo2.gif" alt="animation" width="600"/>
+</p>
 
 
 #### References
