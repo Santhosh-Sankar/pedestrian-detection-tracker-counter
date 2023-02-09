@@ -46,7 +46,7 @@ python tools/generate_detections_np.py --model='./resources/networks/mars-small1
 python evaluate_motchallenge.py --mot_dir=<MOT LOCATION> --detection_dir=<DETECTION FOLDER LOCATION> --output_dir=<OUTPUT FOLDER LOCATION>
 ```
 ### Outputs
-The code outputs the detected pedestrians with a bounding box and the path of motion of the centre point of the bounding boxes for the last 50 frames are plotted. The total number of pedestriand detected and the pedestrians currently visible in the frame are displayed.
+The code outputs the detected pedestrians with a bounding box and the path of motion of the centre point of the bounding boxes for the last 50 frames are plotted. The total number of pedestrians detected and the pedestrians currently visible in the frame are displayed.
 
 #### Less crowded dataset
 <p align='center'>
