@@ -38,8 +38,10 @@ Download MOT16 dataset here: https://motchallenge.net/data/MOT16/
 ```
 #Generate yolov3 detections
 python generate_detections.py
+
 #Convert and save detections in numpy format
 python tools/generate_detections_np.py --model='./resources/networks/mars-small128.pb' --mot_dir=<MOT LOCATION> --detection_dir=<DETECTION FOLDER LOCATION> --output_dir=<OUTPUT FOLDER LOCATION>
+
 #Update tracking IDs of the detections
 python evaluate_motchallenge.py --mot_dir=<MOT LOCATION> --detection_dir=<DETECTION FOLDER LOCATION> --output_dir=<OUTPUT FOLDER LOCATION>
 ```
@@ -56,10 +58,30 @@ The code outputs the detected pedestrians with a bounding box and the path of mo
     <img src="/data/videos/demo2.gif" alt="animation" width="1000"/>
 </p>
 
+### Tracker Evaluation results
+The tracker was evaluated using MOT Benchmark (https://motchallenge.net/) with MOT16 Dataset (https://motchallenge.net/data/MOT16/) which contains 14 challenging video sequences (7 training, 7 test) in unconstrained environments filmed with both static and moving cameras. The evaluation was done on the training set and HOTA and CLEAR-MOT metrics were computed. 
+
+| Metric/Tracker | Yolov3 & DeepSORT |
+| :-----------:  | :---------------: |
+| **HOTA**       | 33.226            |
+| **MOTA**       | 33.476            |
+| **Rcll**       | 40.597            |
+| **Prcn**       | 86.118            |
+| **AssA**       | 36.797            | 
+| **DetA**       | 30.459            |
+| **AssRe**      | 41.491            |
+| **AssPr**      | 68.809            |
+| **DetRe**      | 32.602            |
+| **DetPr**      | 69.159            |
+
+
+The tracking results were compared with another tracker utilizing Faster RCNN as object/pedestrian detector trained on COCO dataset and DeepSORT as tracker to analyze differences in performance of DeepSORT with different object detectors. The detailed results can be found here: https://github.com/Santhosh-Sankar/pedestrian-detection-tracking-counting/wiki
+
 
 #### References
 - [Yolov3] (https://github.com/zzh8829/yolov3-tf2)
 - [DeepSORT] (https://github.com/nwojke/deep_sort) 
+- [MOT_Benchmark] (https://github.com/JonathonLuiten/TrackEval/blob/master/docs/MOTChallenge-Official/Readme.md)
 
 
 
