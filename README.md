@@ -65,6 +65,7 @@ The tracker was evaluated using MOT Benchmark (https://motchallenge.net/) with M
 | :-----------:  | :---------------: |
 | **HOTA**       | 33.226            |
 | **MOTA**       | 33.476            |
+| **MOTP**       | 75.065            |
 | **Rcll**       | 40.597            |
 | **Prcn**       | 86.118            |
 | **AssA**       | 36.797            | 
