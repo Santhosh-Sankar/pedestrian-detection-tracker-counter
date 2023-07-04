@@ -61,7 +61,7 @@ The code outputs the detected pedestrians with a bounding box and the path of mo
 ### Tracker Evaluation results
 The tracker was evaluated using MOT Benchmark (https://motchallenge.net/) with MOT16 Dataset (https://motchallenge.net/data/MOT16/) which contains 14 challenging video sequences (7 training, 7 test) in unconstrained environments filmed with both static and moving cameras. The evaluation was done on the training set and HOTA and CLEAR-MOT metrics were computed. 
 
-| Metric/Tracker | Yolov3 & DeepSORT |
+| Metric/        | Yolov3 & DeepSORT |
 | :-----------:  | :---------------: |
 | **HOTA**       | 33.226            |
 | **MOTA**       | 33.476            |
