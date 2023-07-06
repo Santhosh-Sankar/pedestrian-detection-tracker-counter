@@ -1,10 +1,11 @@
-# Pedestrian detection, tracking and counting using Yolov3 and DeepSORT.
-This repository contains code for detecting, tracking and counting pedestrians using Yolov3 as object or pedestrian detector and utilizes DeepSORT (Simple Online and Realtime Tracking with a Deep Association Metric) for real-time pedestrian tracking and counting. The repository also contains code for generating detections for tracker evaluation using MOT Benchmarks.  
-
+# Pedestrian tracking and counting using Yolov3 and DeepSORT.
 
 <p align='center'>
     <img src="/data/videos/demo3.gif" alt="animation" width="1000"/>
 </p>
+
+This repository contains code for detecting, tracking and counting pedestrians using Yolov3 as object or pedestrian detector and utilizes DeepSORT (Simple Online and Realtime Tracking with a Deep Association Metric) for real-time pedestrian tracking and counting. The repository also contains code for generating detections for tracker evaluation using MOT Benchmarks.  
+
 
 ## Usage
 
